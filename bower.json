@@ -1,29 +1,27 @@
 {
-  name: 'jquery-placeholder-ftw',
-  version: '1.0.0',
-  homepage: 'https://johnhunter.github.io/jquery-placeholder/',
-  authors: [
-    'John Hunter'
+  "name": "jquery-placeholder-ftw",
+  "version": "1.0.0",
+  "homepage": "https://github.com/johnhunter/jquery-placeholder",
+  "authors": [
+    "John Hunter"
   ],
-  description: 'A jQuery plugin that polyfills the HTML5 "placeholder" attribute. With support to hide placeholder untill input.',
-  main: 'jquery.placeholder.js',
-  keywords: [
-    'jQuery',
-    'placeholder',
-    'html5',
-    'polyfill',
-    'ftw',
-    'input'
+  "description": "A jQuery plugin that polyfills the HTML5 \"placeholder\" attribute.",
+  "main": "jquery.placeholder.js",
+  "keywords": [
+    "jQuery",
+    "plugin",
+    "placeholder",
+    "polyfill"
   ],
-  license: 'Apache License, Version 2.0',
-  ignore: [
-    '**/.*',
-    'node_modules',
-    'bower_components',
-    'test',
-    'tests'
+  "license": "Apache License, Version 2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
   ],
-  dependencies: {
-    jquery: '>=1.7.*'
+  "dependencies": {
+    "jquery": ">=1.7.*"
   }
 }
